@@ -1,0 +1,161 @@
+.ifriendsLbl {
+    -fx-text-fill: #130f40;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+}
+
+.topLbl {
+    -fx-text-fill: white;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+}
+
+.contactLbl {
+    -fx-text-fill: #130f40;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.btn {
+    -fx-background-color: #130f40;
+    -fx-text-fill: white;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 200px;
+    -fx-alignment: center;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.btn:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #130f40;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 0, 4);
+}
+
+.btnAdd, .btnUpdate {
+    -fx-background-color: #4cd137;
+    -fx-text-fill: white;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-pref-height: 20px;
+    -fx-pref-width: 283px;
+    -fx-alignment: center;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.btnAdd:hover, .btnSearch:hover, .btnUpdate:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #4cd137;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 0, 4);
+}
+
+.btnClear {
+    -fx-background-color: #fbc531;
+    -fx-text-fill: white;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-pref-height: 20px;
+    -fx-pref-width: 283px;
+    -fx-alignment: center;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.btnClear:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #fbc531;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 0, 4);
+}
+
+.btnHomePage {
+    -fx-background-color: #192a56;
+    -fx-text-fill: white;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-pref-height: 20px;
+    -fx-pref-width: 283px;
+    -fx-alignment: center;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.btnHomePage:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #192a56;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 0, 4);
+}
+
+.btnSearch {
+    -fx-background-color: #4cd137;
+    -fx-text-fill: white;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-pref-height: 20px;
+    -fx-pref-width: 80px;
+    -fx-alignment: center;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.btnDelete {
+    -fx-background-color: #e84118;
+    -fx-text-fill: white;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-pref-height: 20px;
+    -fx-pref-width: 283px;
+    -fx-alignment: center;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.btnDelete:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #e84118;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 0, 4);
+}
+
+.contactsTable {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dfe6e9;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-padding: 10px;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 14px;
+}
+
+.contactsTable .column-header {
+    -fx-background-color: #00a8ff;
+    -fx-text-fill: #130f40;
+    -fx-font-weight: bold;
+    -fx-border-color: #dfe6e9;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-padding: 5px;
+}
+
+.contactsTable .table-cell {
+    -fx-padding: 3px;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-radius: 4px;
+}

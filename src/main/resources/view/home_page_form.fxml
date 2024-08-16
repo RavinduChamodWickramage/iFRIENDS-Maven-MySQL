@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="375.0" prefWidth="600.0" style="-fx-background-color: #dff9fb;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomePageFormController">
+   <children>
+      <SplitPane dividerPositions="0.4999999999999999" prefHeight="375.0" prefWidth="600.0" style="-fx-background-color: #dff9fb;">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="375.0" prefWidth="296.0" style="-fx-background-color: #dff9fb;">
+               <children>
+                  <ImageView fitHeight="398.0" fitWidth="297.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/ContactManagementHomePagePNG.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="375.0" prefWidth="297.0" style="-fx-background-color: #dff9fb;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="14.0" styleClass="ifriendsLbl" stylesheets="@../stylesheets/styles.css" text="iFRIENDS" textAlignment="CENTER" textFill="#130f40" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Poppins Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="48.0" layoutY="89.0" onAction="#btnAddContactOnAction" prefHeight="40.0" prefWidth="200.0" styleClass="btn" stylesheets="@../stylesheets/styles.css" text="Add Contact" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Poppins Bold" size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="48.0" layoutY="134.0" onAction="#btnUpdateContactOnAction" prefHeight="40.0" prefWidth="200.0" styleClass="btn" stylesheets="@../stylesheets/styles.css" text="Update Contact" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Poppins Bold" size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="48.0" layoutY="179.0" onAction="#btnDeleteContactOnAction" prefHeight="40.0" prefWidth="200.0" styleClass="btn" stylesheets="@../stylesheets/styles.css" text="Delete Contact" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Poppins Bold" size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="48.0" layoutY="224.0" onAction="#btnSearchContactOnAction" prefHeight="40.0" prefWidth="200.0" styleClass="btn" stylesheets="@../stylesheets/styles.css" text="Search Contact" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Poppins Bold" size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="48.0" layoutY="269.0" onAction="#btnViewContactsOnAction" prefHeight="40.0" prefWidth="200.0" styleClass="btn" stylesheets="@../stylesheets/styles.css" text="View Contacts" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Poppins Bold" size="18.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

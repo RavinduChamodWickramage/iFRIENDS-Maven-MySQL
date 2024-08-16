@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1500.0" style="-fx-background-color: #dff9fb;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewContactsFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#130f40" height="50.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1500.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-3.0" prefHeight="54.0" prefWidth="1000.0" styleClass="topLbl" stylesheets="@../stylesheets/styles.css" text="Contacts Table" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Poppins Bold" size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblContacts" layoutY="49.0" prefHeight="400.0" prefWidth="1500.0" styleClass="contactsTable" stylesheets="@../stylesheets/styles.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="colID" maxWidth="50.0" prefWidth="50.0" text="ID" />
+          <TableColumn fx:id="colTitle" maxWidth="50.0" prefWidth="50.0" text="Title" />
+            <TableColumn fx:id="colFirstName" maxWidth="125.0" prefWidth="125.0" text="First Name" />
+            <TableColumn fx:id="colLastName" maxWidth="125.0" prefWidth="125.0" text="Last Name" />
+            <TableColumn fx:id="colEmail" maxWidth="300.0" prefWidth="300.0" text="Email" />
+            <TableColumn fx:id="colAddress" maxWidth="500.0" prefWidth="500.0" text="Address" />
+            <TableColumn fx:id="colNIC" maxWidth="125.0" prefWidth="125.0" text="NIC" />
+            <TableColumn fx:id="colDOB" maxWidth="125.0" prefWidth="125.0" text="DOB" />
+            <TableColumn fx:id="colPhoneNumber" maxWidth="150.0" prefWidth="150.0" text="Phone Number" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <JFXButton buttonType="RAISED" layoutX="608.0" layoutY="460.0" onAction="#btnHomePageOnAction" prefHeight="26.0" prefWidth="200.0" styleClass="btnHomePage" stylesheets="@../stylesheets/styles.css" text="HOME PAGE" AnchorPane.leftAnchor="608.0" AnchorPane.rightAnchor="608.8" />
+   </children>
+</AnchorPane>
