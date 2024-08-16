@@ -62,13 +62,16 @@ Ensure that the JavaFX SDK is configured correctly in your IDE.
 Build and run the application to start managing your contacts.
 
 **Usage**
+
 Add Contacts: Navigate to the 'Add Contact' form to input new contact details and save them to the database.
 Search Contacts: Use the search functionality to find specific contacts quickly.
 View Contacts: Go to the 'View Contacts' section to see a list of all stored contacts.
 Delete Contacts: Select a contact and confirm deletion to remove it from the system.
 
 **Contributing**
+
 Contributions to the iFRIENDS project are welcome. If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 **Contact**
+
 For any questions or feedback, please reach out to ravinduchamod1@gmail.com
