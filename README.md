@@ -40,15 +40,15 @@ CREATE DATABASE iFRIENDS;
 USE iFRIENDS;
 
 CREATE TABLE contacts (
-    id VARCHAR(5) PRIMARY KEY,
-    title VARCHAR(10),
-    firstName VARCHAR(50),
-    lastName VARCHAR(50),
-    email VARCHAR(100),
-    address VARCHAR(200),
-    nic VARCHAR(15),
-    dob DATE,
-    phoneNumber VARCHAR(15)
+   id VARCHAR(5) PRIMARY KEY,
+   title VARCHAR(10),
+   firstName VARCHAR(50),
+   lastName VARCHAR(50),
+   email VARCHAR(100),
+   address VARCHAR(200),
+   nic VARCHAR(15),
+   dob DATE,
+   phoneNumber VARCHAR(15)
 );
 
 3. **Configure Database Connection**
